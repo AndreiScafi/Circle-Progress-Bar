@@ -13,6 +13,10 @@ document.addEventListener('scroll', () => {
 
     const scrolledPortionDegree = (scrollPortion / (pageHeight - pageViewportHeight)) * 360;
 
+    const scrolledPortionPercent = scrolledPortionDegree / 360 * 100;
+
+    progressBarCircle.textContent = `${Math.floor(scrolledPortionPercent)}%`
+
     halfCircles.forEach((el) => {
         el.style.transform = `rotate(${scrolledPortionDegree}deg)`
 
