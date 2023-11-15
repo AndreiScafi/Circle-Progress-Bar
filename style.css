@@ -55,7 +55,7 @@ html {
     background-color: #fff;
 }
 
-.progressbar:hover .half-circle:nth-child(1) {
+/* .progressbar:hover .half-circle:nth-child(1) {
     transform: rotate(180deg);
     transition: transform 1s linear;
 }
@@ -68,7 +68,7 @@ html {
 .progressbar:hover .half-circle-top {
     opacity: 0;
     transition: opacity 0s 1s;
-}
+} */
 
 .progressbar-circle {
     width: 39.4rem;
